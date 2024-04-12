@@ -22,9 +22,6 @@ public class TodoAppApplication {
             todoRepository.save(Todo.builder().id(null).title("Todo 3").completed(false).build());
             todoRepository.save(Todo.builder().id(null).title("Todo 4").completed(false).build());
             todoRepository.save(Todo.builder().id(null).title("Todo 5").completed(false).build());
-            todoRepository.save(Todo.builder().id(null).title("Todo 6").completed(false).build());
-            todoRepository.save(Todo.builder().id(null).title("Todo 7").completed(false).build());
-            todoRepository.save(Todo.builder().id(null).title("Todo 7").completed(false).build());
         };
     }
 }
